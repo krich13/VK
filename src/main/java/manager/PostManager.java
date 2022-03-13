@@ -1,16 +1,18 @@
 package manager;
 
-public class PostManager {
-    private Post[] posts;
+import domain.Post;
 
-    public String PostSearch(int ownerId, String domain, String query, int ownersOnly, int count, int offset ) {
-        for (post : posts) {
+public class PostManager {
+    private Post[] Posts;
+
+    public Post[] postSearch (int ownerId, String domain, String query, int ownersOnly, int count, int offset ) {
+         for  (Post : posts) {
             //TODO: add logic
-            return null;
+            return Posts;
         }
     }
 
-    public void PostDelete(int ownerId, int postId) {
+    public void postDelete(int ownerId, int postId) {
         for (post : posts) {
             //TODO: add logic
         }
